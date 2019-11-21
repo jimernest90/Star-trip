@@ -1,0 +1,117 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    animation: changeBackground 10s infinite;
+}
+.crew-button{
+    margin: auto;
+    background-color: #a2999e;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.title{
+    display: flex;
+    font-family: 'Odibee Sans', cursive;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+.content{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #EEF0F3;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url('../../img/asteroid.png');
+    
+    
+}
+
+.content h2{
+    width: 75%;
+    margin: auto;
+    margin-top: 125px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+}
+
+@keyframes changeBackground{
+    0%{
+        background: url("../../img/img1.png");
+    }
+    10%{
+        background: url("../../img/img2.png");
+    }
+    15%{
+        background: url("../../img/img3.png");
+    }
+    20%{
+        background: url("../../img/img1.png");
+    }
+    30%{
+        background: url("../../img/img2.png");
+    }
+    35%{
+        background: url("../../img/img3.png");
+    }
+    40%{
+        background: url("../../img/img1.png");
+    }
+    50%{
+        background: url("../../img/img2.png");
+    }
+    55%{
+        background: url("../../img/img3.png");
+    }
+    60%{
+        background: url("../../img/img1.png");
+    }
+    70%{
+        background: url("../../img/img2.png");
+    }
+    85%{
+        background: url("../../img/img3.png");
+    }
+    90%{
+        background: url("../../img/img1.png");
+    }
+    95%{
+        background: url("../../img/img2.png");
+    }
+    100%{
+        background: url("../../img/img3.png");
+    }
+}
+
+@media (max-width: 420px){
+    .content{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-color: #EEF0F3;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        
+    }
+    .content h2{
+        width: 65%;
+        margin: auto;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    
+
+}

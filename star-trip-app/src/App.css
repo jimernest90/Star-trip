@@ -1,0 +1,23 @@
+
+.App {
+  
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+main{
+  animation: changeBackground 10s infinite;
+  height: 100vh;
+}
+
+@media (max-width: 420px){
+
+
+}
+

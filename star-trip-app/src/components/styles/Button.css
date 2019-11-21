@@ -1,0 +1,38 @@
+.button {
+	font-size: 1.2rem;
+	transition: all 0.4s ease;
+	font-weight: 600;
+	margin: auto;
+	padding: 0.4em 1.2em;
+	border-radius: 4px;
+	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+	transform: scale(0.9);
+}
+
+.primary {
+	background-color: #7986cb;
+}
+
+.primary:hover {
+	background-color: #aab6fe;
+}
+
+.danger {
+	background-color: #ef5350;
+	color: #f8f8f8;
+}
+
+.danger:hover {
+	background-color: #ff867c;
+}
+
+.fab {
+	padding: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	line-height: 25px;
+}
