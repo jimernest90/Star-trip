@@ -10,6 +10,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "deploy": "npm run build && mv build/index.html build/200.html && cd build && npx surge"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
