@@ -68,7 +68,7 @@ class Crew extends React.Component {
                 </div>
             )
         } else {
-            return <div className="modal close" />
+            return <div className="close" />
         }
     }
     render() {

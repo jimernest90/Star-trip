@@ -15,6 +15,9 @@ main{
   animation: changeBackground 10s infinite;
   height: 100vh;
 }
+.close{
+  display: none;
+}
 
 @media (max-width: 420px){
 
