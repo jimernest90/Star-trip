@@ -1,5 +1,6 @@
 # Star-trip
 ![](trip-to-stars.gif)
+
 An asteroid is heading towards earth. You are tasked with assembling a crew. You have to get off this god foresaken rock as fast as possible. Who will you pick? Each person has distinct skills. Can they help you make this trip to the stars successful.
 
 ### Struggles and Wins
